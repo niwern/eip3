@@ -1,15 +1,15 @@
 for i in range(5):
 	print(i)
 
-for i in range(3,6):
+for i in range(3, 6):
 	print(i)
 
 for i in range(2, 7, 2):
 	print(i)
 
 str = 'Einfuehrung in die Programmierung' # Der Kompiler akzepiert keine Umlaute
-for i in range(len(str)):
-	print(str[i])
+for i in str:
+	print(i)
 
 i = 0
 while i < 5:
